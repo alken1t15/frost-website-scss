@@ -1,0 +1,142 @@
+$text: Open Sans;
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./static/OpenSans/OpenSans-Regular.eot');
+  src: url('./static/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./static/OpenSans/OpenSans-Regular.woff2') format('woff2'),
+  url('./static/OpenSans/OpenSans-Regular.woff') format('woff'),
+  url('./static/OpenSans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./static/OpenSans/OpenSans-SemiBold.eot');
+  src: url('./static/OpenSans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('./static/OpenSans/OpenSans-SemiBold.woff2') format('woff2'),
+  url('./static/OpenSans/OpenSans-SemiBold.woff') format('woff'),
+  url('./static/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./static/OpenSans/OpenSans-Medium.eot');
+  src: url('./static/OpenSans/OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
+  url('./static/OpenSans/OpenSans-Medium.woff2') format('woff2'),
+  url('./static/OpenSans/OpenSans-Medium.woff') format('woff'),
+  url('./static/OpenSans/OpenSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+
+body{
+  font-family: $text;
+}
+main{
+  padding-top: 55px;
+  margin: 0 auto;
+  width: 1140px;
+}
+.main_block_img{
+  height: 400px;
+  width: 400px;
+  padding: 71px 18px 39px;
+  background: #FFFFFF;
+  border: 2px solid #E5E5E5;
+
+}
+.upp_container{
+  display: flex;
+}
+.bloc_text{
+padding-left: 66px;
+}
+.main_text{
+  width: 404px;
+  height: 105px;
+  font-family: $text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 145%;
+  color: #000000;
+}
+.text_inner{
+  margin-top: 33px;
+  font-family: $text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7A7A7A;
+}
+.text_inner2{
+  width: 404px;
+  height: 188px;
+  margin-top: 33px;
+  font-family: $text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7A7A7A;
+}
+.two_block{
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  margin-left: 30px;
+  width: 270px;
+  height: 255px;
+  left: 1275px;
+  top: 174px;
+
+  background: #EDEDED;
+}
+.price_text{
+  font-family: $text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #000000;
+}
+.inner_two_block{
+  margin-top: 12px;
+  display: table;
+
+   img, span {
+    display: table-cell;
+    vertical-align:middle;
+  }
+}
+.text_inner_two_block{
+  margin-left: 8px;
+
+  font-family: $text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+
+  color: #000000;
+}
