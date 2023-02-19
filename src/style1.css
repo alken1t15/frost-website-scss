@@ -449,18 +449,16 @@ header {
 }
 
 .container7 {
+  margin: 0 auto;
+  width: 1125px;
   display: flex;
   padding: 30px;
   cursor: default;
 }
 
-.insta {
-  margin-left: 415px;
-}
-
 .insta_text {
   margin-top: -32px;
-  margin-left: 461px;
+  margin-left: 50px;
 }
 
 .mail {
