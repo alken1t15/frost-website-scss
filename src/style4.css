@@ -1,0 +1,90 @@
+.main_container {
+  margin-top: 280px;
+  margin-bottom: 280px;
+  padding-top: 65px;
+  padding-left: 50px;
+  width: 600px;
+  height: 570px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+.main_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.input_block {
+  margin-top: 25px;
+  width: 500px;
+  height: 40px;
+  left: 50px;
+  top: 347px;
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+}
+
+.bloc-bot3 {
+  margin-top: 139px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bloc-bot3 span {
+  font-weight: 600;
+  font-size: 24px;
+}
+.bloc-bot3 input {
+  padding: 8px 228px 7px 228px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  background: #2156BD;
+}
+
+.register {
+  display: block;
+  margin-top: 18px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #989898;
+}
+
+.foget_pass {
+  margin-left: 340px;
+  display: block;
+  margin-top: 15px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2156BD;
+}
+
+.blueButtons {
+  height: 50px;
+  cursor: pointer;
+}
+.blueButtons:hover {
+  background: #1C499F;
+}
+.blueButtons:active {
+  background: #194292;
+}
+
+/*# sourceMappingURL=style4.css.map */
